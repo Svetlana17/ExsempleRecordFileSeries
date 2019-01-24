@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/line_gyroscope"
+        android:orderInCategory="1"
+        android:title="Гироскоп" />
+    <item
+        android:id="@+id/line_accelerometr"
+        android:orderInCategory="2"
+        android:title="Акселерометр" />
+    <item
+        android:id="@+id/line_accelerometr_geroscope"
+        android:orderInCategory="3"
+        android:title="Акселерометр и гироскоп" />
+    <item
+        android:id="@+id/main"
+        android:orderInCategory="4"
+        android:title="Главная" />
+    <item
+        android:id="@+id/record"
+        android:orderInCategory="4"
+        android:title="Запись" />
+    <item
+        android:id="@+id/movement"
+        android:orderInCategory="4"
+        android:title="Перемещение" />
+
+
+</menu>

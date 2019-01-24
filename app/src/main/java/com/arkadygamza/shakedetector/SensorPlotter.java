@@ -77,7 +77,6 @@ public class SensorPlotter {
         appendData(mSeriesY, event.values[1]);
         appendData(mSeriesZ, event.values[2]);
     }
-
     private boolean canUpdateUi() {
         long now = System.currentTimeMillis();
         if (now - mLastUpdated < 1000 / FPS) {
@@ -86,7 +85,6 @@ public class SensorPlotter {
         mLastUpdated = now;
         return true;
     }
-
     private void appendData(LineGraphSeries<DataPoint> series, double value) {
         series.appendData(new DataPoint(getX(), value), true, MAX_DATA_POINTS);
     }
