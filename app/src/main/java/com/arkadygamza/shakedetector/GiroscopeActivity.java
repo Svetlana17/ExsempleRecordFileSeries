@@ -12,7 +12,7 @@ import android.widget.TextView;
 import static java.lang.Math.sin;
 import static java.lang.StrictMath.cos;
 import static java.lang.StrictMath.sqrt;
-
+//вычисление угловой скорости. но сначала надо отфильтровать значения по комплементарному фильтру
 public class GiroscopeActivity extends AppCompatActivity {
     TextView textX, textY, textZ;
     TextView tv_accX, tv_accY, tv_accZ;

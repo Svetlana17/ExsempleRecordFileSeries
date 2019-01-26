@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">ShakeDetector</string>
+    <string name="kmh">kmh</string>
+    <string name="longitude">longitude</string>
+    <string name="unknownLongLat">unknownLongLat</string>
+    <string name="latitude">latitude</string>
+    <string name="toggle_turn_off">toggle_turn_off</string>
+    <string name="toggle_turn_on">toggle_turn_on</string>
 </resources>
